@@ -109,263 +109,9 @@ Example Response:
                 "customer_name": "Max Mustermann"
             },
             "status": "pending"
-        },
-        {
-            "invoice_id": "22",
-            "invoice_number": "S018418",
-            "invoice_date": "2025-10-27T00:00:00.000Z",
-            "amount": 84,
-            "currency": "₹",
-            "vendor": {
-                "vendor_id": "23",
-                "vendor_name": "LAXMIDAIRY"
-            },
-            "customer": null,
-            "status": "pending"
-        },
-        {
-            "invoice_id": "1",
-            "invoice_number": "INV-1001",
-            "invoice_date": "2025-10-01T00:00:00.000Z",
-            "amount": 17700,
-            "currency": "₹",
-            "vendor": {
-                "vendor_id": "1",
-                "vendor_name": "TechNova Solutions"
-            },
-            "customer": {
-                "customer_id": "1",
-                "customer_name": "Rohit Sharma"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "2",
-            "invoice_number": "INV-1002",
-            "invoice_date": "2025-09-12T00:00:00.000Z",
-            "amount": 1428,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "2",
-                "vendor_name": "Alpha Supplies Co."
-            },
-            "customer": {
-                "customer_id": "2",
-                "customer_name": "Max Mustermann"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "3",
-            "invoice_number": "INV-1003",
-            "invoice_date": "2025-08-20T00:00:00.000Z",
-            "amount": 1176,
-            "currency": "£",
-            "vendor": {
-                "vendor_id": "3",
-                "vendor_name": "DataFlow Systems"
-            },
-            "customer": {
-                "customer_id": "3",
-                "customer_name": "John Doe"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "17",
-            "invoice_number": "Re-147/2025",
-            "invoice_date": "2025-08-08T00:00:00.000Z",
-            "amount": 2840,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "18",
-                "vendor_name": "EasyFirma GmbH & Co KG"
-            },
-            "customer": {
-                "customer_id": "18",
-                "customer_name": "Mustermann GmbH."
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "4",
-            "invoice_number": "INV-1004",
-            "invoice_date": "2025-07-15T00:00:00.000Z",
-            "amount": 24780,
-            "currency": "₹",
-            "vendor": {
-                "vendor_id": "4",
-                "vendor_name": "NextGen Pvt Ltd"
-            },
-            "customer": {
-                "customer_id": "4",
-                "customer_name": "Ananya Gupta"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "5",
-            "invoice_number": "INV-1005",
-            "invoice_date": "2025-06-10T00:00:00.000Z",
-            "amount": 2975,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "5",
-                "vendor_name": "Pixel Works"
-            },
-            "customer": {
-                "customer_id": "5",
-                "customer_name": "Sophia Meyer"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "6",
-            "invoice_number": "INV-1006",
-            "invoice_date": "2025-05-01T00:00:00.000Z",
-            "amount": -327,
-            "currency": "$",
-            "vendor": {
-                "vendor_id": "6",
-                "vendor_name": "CloudAxis"
-            },
-            "customer": {
-                "customer_id": "6",
-                "customer_name": "Michael Clark"
-            },
-            "status": "pending"
-        },
-        {
-            "invoice_id": "23",
-            "invoice_number": "123100401",
-            "invoice_date": "2024-03-01T00:00:00.000Z",
-            "amount": 381.12,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "24",
-                "vendor_name": "CPB SOFTWARE (GERMANY) GMBH"
-            },
-            "customer": {
-                "customer_id": "24",
-                "customer_name": "Musterkunde AG\nMr. John Doe"
-            },
-            "status": "pending"
-        },
-        {
-            "invoice_id": "13",
-            "invoice_number": "RE-1001",
-            "invoice_date": "2024-03-01T00:00:00.000Z",
-            "amount": 19.99,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "14",
-                "vendor_name": "belegFuchs"
-            },
-            "customer": {
-                "customer_id": "14",
-                "customer_name": "Muster GmbH"
-            },
-            "status": "pending"
-        },
-        {
-            "invoice_id": "14",
-            "invoice_number": "DE-001",
-            "invoice_date": "2024-01-01T00:00:00.000Z",
-            "amount": 618.8,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "15",
-                "vendor_name": "Auto Teile Europa GmbH"
-            },
-            "customer": {
-                "customer_id": "15",
-                "customer_name": "Stefanie Johan Schmidt"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "16",
-            "invoice_number": "DE/01/12/2023",
-            "invoice_date": "2023-12-15T00:00:00.000Z",
-            "amount": 541.45,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "17",
-                "vendor_name": "Taxon GmbH"
-            },
-            "customer": {
-                "customer_id": "17",
-                "customer_name": "Klaus Kirsten GmbH"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "21",
-            "invoice_number": "012345",
-            "invoice_date": "2020-05-27T00:00:00.000Z",
-            "amount": 4645,
-            "currency": "EUR",
-            "vendor": {
-                "vendor_id": "22",
-                "vendor_name": "ABC Seller"
-            },
-            "customer": {
-                "customer_id": "22",
-                "customer_name": "XYZ Buyer\nABC Company"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "15",
-            "invoice_number": "1234",
-            "invoice_date": "2020-01-01T00:00:00.000Z",
-            "amount": 3653.3,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "16",
-                "vendor_name": "pixa"
-            },
-            "customer": {
-                "customer_id": "16",
-                "customer_name": "Max Müller"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "19",
-            "invoice_number": "2015-1234",
-            "invoice_date": "2015-08-07T00:00:00.000Z",
-            "amount": 1190,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "20",
-                "vendor_name": "Firmenname"
-            },
-            "customer": {
-                "customer_id": "20",
-                "customer_name": "Herrn Max Mustermann"
-            },
-            "status": "overdue"
-        },
-        {
-            "invoice_id": "18",
-            "invoice_number": "M1675",
-            "invoice_date": "2014-05-28T00:00:00.000Z",
-            "amount": 312.96,
-            "currency": "€",
-            "vendor": {
-                "vendor_id": "19",
-                "vendor_name": "Muster GmbH"
-            },
-            "customer": {
-                "customer_id": "19",
-                "customer_name": "Habermann & Söhne"
-            },
-            "status": "overdue"
         }
     ]
 }
-
 
 
 GET /api/vendors/top10
@@ -374,7 +120,34 @@ Returns top 10 vendors by total spend.
 
 Example Response:
 
-
+[
+    {
+        "vendor_id": "4",
+        "vendor_name": "NextGen Pvt Ltd",
+        "spend": 24780
+    },
+    {
+        "vendor_id": "1",
+        "vendor_name": "TechNova Solutions",
+        "spend": 17700
+    },
+    {
+        "vendor_id": "22",
+        "vendor_name": "ABC Seller",
+        "spend": 4645
+    },
+    {
+        "vendor_id": "16",
+        "vendor_name": "pixa",
+        "spend": 3653.3
+    },
+    {
+        "vendor_id": "5",
+        "vendor_name": "Pixel Works",
+        "spend": 2975
+    } 
+    
+]
 
 
 
@@ -384,7 +157,29 @@ Returns spend grouped by category.
 
 Example Response
 
-
+[
+    {
+        "category": "4001",
+        "spend": 140000
+    },
+    {
+        "category": "7001",
+        "spend": 20000
+    },
+    {
+        "category": "4400",
+        "spend": 6212.3
+    },
+    {
+        "category": "4002",
+        "spend": 2500
+    },
+    {
+        "category": "8001",
+        "spend": 2400
+    }
+    
+]
 
 
 GET /api/cash-outflow
@@ -393,6 +188,28 @@ Returns upcoming payment outflow forecast.
 
 Example Response
 
+{
+    "start": "2025-11-11T00:00:00.000Z",
+    "end": "2026-01-10T00:00:00.000Z",
+    "rows": [
+        {
+            "range": "0 - 7 days",
+            "value": 18000
+        },
+        {
+            "range": "8 - 30 days",
+            "value": 22000
+        },
+        {
+            "range": "31 - 60 days",
+            "value": 9000
+        },
+        {
+            "range": "60+ days",
+            "value": 48000
+        }
+    ]
+}
 
 
 GET /api/invoices
@@ -401,7 +218,61 @@ Returns searchable list of invoices with metadata.
 
 Example Response
 
-
+{
+    "total": 19,
+    "page": 1,
+    "pageSize": 25,
+    "rows": [
+        {
+            "invoice_id": "12",
+            "invoice_number": "-",
+            "invoice_date": null,
+            "amount": 0,
+            "currency": "€",
+            "vendor": {
+                "vendor_id": "13",
+                "vendor_name": "-"
+            },
+            "customer": {
+                "customer_id": "13",
+                "customer_name": "-"
+            },
+            "status": "pending"
+        },
+        {
+            "invoice_id": "10",
+            "invoice_number": "1234",
+            "invoice_date": "2025-11-04T00:00:00.000Z",
+            "amount": -358.79,
+            "currency": "-",
+            "vendor": {
+                "vendor_id": "11",
+                "vendor_name": "Musterfirma Müller"
+            },
+            "customer": {
+                "customer_id": "11",
+                "customer_name": "Max Mustermann"
+            },
+            "status": "pending"
+        },
+        {
+            "invoice_id": "11",
+            "invoice_number": "1234",
+            "invoice_date": "2025-11-04T00:00:00.000Z",
+            "amount": -358.79,
+            "currency": "€",
+            "vendor": {
+                "vendor_id": "12",
+                "vendor_name": "Musterfirma Müller"
+            },
+            "customer": {
+                "customer_id": "12",
+                "customer_name": "Max Mustermann"
+            },
+            "status": "pending"
+        }
+    ]
+}
 
 
 
@@ -487,9 +358,9 @@ GROUP BY
 ORDER BY 
     total_spend DESC
 LIMIT 5;
-vendor_name	total_spend
+vendor_name	        total_spend
 TechNova Solutions	142500
-NextGen Pvt Ltd	20000
-ABC Seller	4357.6
+NextGen Pvt Ltd	    20000
+ABC Seller	        4357.6
 EasyFirma GmbH & Co KG	3159.25
-pixa	3070
+pixa	            3070
